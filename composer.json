@@ -23,5 +23,6 @@
         "heykarthikwithu/cycle": "^1.0",
         "studiopresent/json2": "^1.0",
         "studiopresent/hoverintent": "^1.0"
-    }
+    },
+    "minimum-stability": "dev"
 }
