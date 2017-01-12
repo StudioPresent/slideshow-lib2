@@ -12,11 +12,11 @@
     "repositories": [
         {
             "type": "git",
-            "url": "https://github.com/StudioPresent/hoverintent.git"
+            "url": "https://github.com/StudioPresent/hoverintent"
         },
         {
             "type": "git",
-            "url": "https://github.com/StudioPresent/json2.git"
+            "url": "https://github.com/StudioPresent/json2"
         }
     ],
     "require": {
