@@ -1,0 +1,27 @@
+{
+    "name": "studiopresent/slideshow-lib2",
+    "description": "Drupal 8 views slideshow libraries2",
+    "type": "package",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Studio Present",
+            "email": "info@studiopresent.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/StudioPresent/hoverintent.git"
+        },
+        {
+            "type": "zip",
+            "url": "https://github.com/StudioPresent/json2/archive/master.zip"
+        }
+    ],
+    "require": {
+        "heykarthikwithu/cycle": "^1.0",
+        "studiopresent/json2": "^1.0",
+        "studiopresent/hoverintent": "^1.0"
+    }
+}
