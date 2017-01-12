@@ -21,8 +21,8 @@
     ],
     "require": {
         "heykarthikwithu/cycle": "^1.0",
-        "studiopresent/json2": "@dev",
-        "studiopresent/hoverintent": "@dev"
+        "studiopresent/json2": "dev-master",
+        "studiopresent/hoverintent": "dev-master"
     },
     "minimum-stability": "dev"
 }
