@@ -15,8 +15,8 @@
             "url": "https://github.com/StudioPresent/hoverintent.git"
         },
         {
-            "type": "zip",
-            "url": "https://github.com/StudioPresent/json2/archive/master.zip"
+            "type": "git",
+            "url": "https://github.com/StudioPresent/json2.git"
         }
     ],
     "require": {
