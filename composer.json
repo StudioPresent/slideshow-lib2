@@ -9,20 +9,8 @@
             "email": "info@studiopresent.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/StudioPresent/hoverintent.git"
-        },
-        {
-            "type": "git",
-            "url": "https://github.com/StudioPresent/json2.git"
-        }
-    ],
     "require": {
-        "heykarthikwithu/cycle": "^1.0",
-        "studiopresent/json2": "^1.0",
-        "studiopresent/hoverintent": "^1.0"
+        "heykarthikwithu/cycle": "^1.0"
     },
     "minimum-stability": "dev"
 }
