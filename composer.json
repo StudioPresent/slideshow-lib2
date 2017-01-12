@@ -11,11 +11,11 @@
     ],
     "repositories": [
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/StudioPresent/hoverintent"
         },
         {
-            "type": "git",
+            "type": "vcs",
             "url": "https://github.com/StudioPresent/json2"
         }
     ],
