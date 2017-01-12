@@ -11,18 +11,18 @@
     ],
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/StudioPresent/hoverintent"
+            "type": "git",
+            "url": "https://github.com/StudioPresent/hoverintent.git"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/StudioPresent/json2"
+            "type": "git",
+            "url": "https://github.com/StudioPresent/json2.git"
         }
     ],
     "require": {
         "heykarthikwithu/cycle": "^1.0",
-        "studiopresent/json2": "*",
-        "studiopresent/hoverintent": "*"
+        "studiopresent/json2": "dev-master",
+        "studiopresent/hoverintent": "dev-master"
     },
     "minimum-stability": "dev"
 }
