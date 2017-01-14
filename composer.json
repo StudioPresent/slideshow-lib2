@@ -1,9 +1,5 @@
 {
   "repositories": {
-    "drupal": {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
-    },
     "jquery.cycle": {
       "type": "package",
       "package": {
@@ -21,8 +17,7 @@
     "composer/installers": "^1.0.2",
     "jquery/jquery.cycle": "*",
     "jquery/jquery.hoverIntent": "*",
-    "json/json2": "*",
-    "drupal/views_slideshow": "^4.2"
+    "json/json2": "*"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
