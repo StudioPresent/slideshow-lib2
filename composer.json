@@ -1,6 +1,20 @@
 {
-  "repositories": {
-    "jquery.cycle": {
+  "name": "studiopresent/slideshow",
+    "description": "Drupal 8 views slideshow and libraries",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "David Malatenszki",
+            "email": "malatenszki.david@gmail.com"
+        }
+    ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    },
+    {
       "type": "package",
       "package": {
         "name": "jquery/jquery.cycle",
@@ -11,13 +25,38 @@
           "type": "file"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "jquery/jquery.hoverIntent",
+        "version": "1.8.1",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/briancherne/jquery-hoverIntent/master/jquery.hoverIntent.js",
+          "type": "file"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "json/json2",
+        "version": "dev-master",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://raw.githubusercontent.com/sstur/json2/master/json2.js",
+          "type": "file"
+        }
+      }
     }
-  },
+  ],
   "require": {
     "composer/installers": "^1.0.2",
     "jquery/jquery.cycle": "*",
     "jquery/jquery.hoverIntent": "*",
-    "json/json2": "*"
+    "json/json2": "*",
+    "drupal/views_slideshow": "^4.2"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
