@@ -9,51 +9,6 @@
             "email": "malatenszki.david@gmail.com"
         }
     ],
-  "repositories": {
-    "packagist":{
-            "packagist.org": false
-        },
-    "drupal":{
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
-    },
-    "jquery.cycle": {
-      "type": "package",
-      "package": {
-        "name": "jquery/jquery.cycle",
-        "version": "3.0.3",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://raw.githubusercontent.com/malsup/cycle/master/jquery.cycle.all.js",
-          "type": "file"
-        }
-      }
-    },
-    "jquery.hoverIntent": {
-      "type": "package",
-      "package": {
-        "name": "jquery/jquery.hoverIntent",
-        "version": "1.8.1",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://raw.githubusercontent.com/briancherne/jquery-hoverIntent/master/jquery.hoverIntent.js",
-          "type": "file"
-        }
-      }
-    },
-  "json2": {
-      "type": "package",
-      "package": {
-        "name": "json/json2",
-        "version": "dev-master",
-        "type": "drupal-library",
-        "dist": {
-          "url": "https://raw.githubusercontent.com/sstur/json2/master/json2.js",
-          "type": "file"
-        }
-      }
-    }
-  },
   "require": {
     "composer/installers": "^1.0.2",
     "jquery/jquery.cycle": "^3.0",
