@@ -25,15 +25,5 @@
     "drupal/views_slideshow": "^4.2"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
-  "extra": {
-    "installer-paths": {
-      "public_html/libraries/{$name}": [
-        "type:drupal-library"
-      ],
-      "public_html/modules/contrib/{$name}": [
-        "type:drupal-module"
-      ]
-    }
-  }
+  "prefer-stable": true
 }
