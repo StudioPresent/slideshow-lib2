@@ -10,6 +10,9 @@
         }
     ],
   "repositories": {
+    {
+            "packagist.org": false
+        },
     "drupal":{
       "type": "composer",
       "url": "https://packages.drupal.org/8"
@@ -53,13 +56,11 @@
   },
   "require": {
     "composer/installers": "^1.0.2",
-    "jquery/jquery.cycle": "*",
-    "jquery/jquery.hoverIntent": "*",
-    "json/json2": "*",
-    "drupal/views_slideshow": "^4.2"
+    "jquery/jquery.cycle": "^3.0",
+    "jquery/jquery.hoverIntent": "^1.8",
+    "json/json2": "dev-master"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true,
   "extra": {
     "installer-paths": {
       "public_html/libraries/{$name}": [
