@@ -9,12 +9,12 @@
             "email": "malatenszki.david@gmail.com"
         }
     ],
-  "repositories": [
-    {
+  "repositories": {
+    "drupal":{
       "type": "composer",
       "url": "https://packages.drupal.org/8"
     },
-    {
+    "jquery.cycle": {
       "type": "package",
       "package": {
         "name": "jquery/jquery.cycle",
@@ -26,7 +26,7 @@
         }
       }
     },
-    {
+    "jquery.hoverIntent": {
       "type": "package",
       "package": {
         "name": "jquery/jquery.hoverIntent",
@@ -38,7 +38,7 @@
         }
       }
     },
-    {
+  "json2": {
       "type": "package",
       "package": {
         "name": "json/json2",
