@@ -10,7 +10,7 @@
         }
     ],
   "repositories": {
-    {
+    "packagist":{
             "packagist.org": false
         },
     "drupal":{
